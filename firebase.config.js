@@ -6,5 +6,10 @@ export const firebaseConfig = {
   projectId: Constants.manifest.extra.projectId,
   storageBucket: Constants.manifest.extra.storageBucket,
   messagingSenderId: Constants.manifest.extra.messagingSenderId,
-  appId: Constants.manifest.extra.appId
+  appId: Constants.manifest.extra.appId,
+  facebookAppId: Constants.manifest.extra.facebookAppId,
+  googleApp: {
+    androidClientId: Constants.manifest.extra.googleAppAndroidClientId,
+    iOSClientId: Constants.manifest.extra.googleAppIOSClientId
+  }
 };
